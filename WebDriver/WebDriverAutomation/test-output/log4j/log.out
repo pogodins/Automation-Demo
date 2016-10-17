@@ -1,0 +1,195 @@
+2014-12-10 15:50:41 INFO  MusicStoreTestRunner:13 - Feature: Purchase disks in Music store
+2014-12-10 15:50:41 INFO  MusicStoreTestRunner:13 - Scenario: Navigate and login to Music Store started
+2014-12-10 15:50:41 INFO  MusicStoreTestRunner:13 - Given I navigate to the Music Store in 'firefox' browser
+2014-12-10 15:50:41 INFO  MusicStoreTestRunner:13 - When I try to login as admin
+2014-12-10 15:50:41 INFO  MusicStoreTestRunner:13 - Then I should not see any errors
+2014-12-10 15:50:49 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:50:51 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:50:51 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:50:51 INFO  MusicStoreTestRunner:13 - Scenario Navigate and login to Music Store ended
+2014-12-10 15:50:51 INFO  MusicStoreTestRunner:13 - Scenario Outline: Add albums to the cart
+2014-12-10 15:50:51 INFO  MusicStoreTestRunner:13 - Given '<genre>' genre exists in the list
+2014-12-10 15:50:51 INFO  MusicStoreTestRunner:13 - When I add to cart '<album>' album from '<genre>' genre
+2014-12-10 15:50:51 INFO  MusicStoreTestRunner:13 - Then Album should be added to the cart
+2014-12-10 15:50:51 INFO  MusicStoreTestRunner:13 - Scenario Outline: Add albums to the cart started
+2014-12-10 15:50:51 INFO  MusicStoreTestRunner:13 - Given 'Rock' genre exists in the list
+2014-12-10 15:50:51 INFO  MusicStoreTestRunner:13 - When I add to cart 'random' album from 'Rock' genre
+2014-12-10 15:50:51 INFO  MusicStoreTestRunner:13 - Then Album should be added to the cart
+2014-12-10 15:50:52 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:50:53 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:50:53 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:50:54 INFO  MusicStoreTestRunner:13 - Scenario Outline Add albums to the cart ended
+2014-12-10 15:50:54 INFO  MusicStoreTestRunner:13 - Scenario Outline: Add albums to the cart started
+2014-12-10 15:50:54 INFO  MusicStoreTestRunner:13 - Given 'Latin' genre exists in the list
+2014-12-10 15:50:54 INFO  MusicStoreTestRunner:13 - When I add to cart '3' album from 'Latin' genre
+2014-12-10 15:50:54 INFO  MusicStoreTestRunner:13 - Then Album should be added to the cart
+2014-12-10 15:50:54 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:50:55 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:50:55 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:50:56 INFO  MusicStoreTestRunner:13 - Scenario Outline Add albums to the cart ended
+2014-12-10 15:50:56 INFO  MusicStoreTestRunner:13 - Scenario Outline: Add albums to the cart started
+2014-12-10 15:50:56 INFO  MusicStoreTestRunner:13 - Given 'Latin' genre exists in the list
+2014-12-10 15:50:56 INFO  MusicStoreTestRunner:13 - When I add to cart '4' album from 'Latin' genre
+2014-12-10 15:50:56 INFO  MusicStoreTestRunner:13 - Then Album should be added to the cart
+2014-12-10 15:50:56 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:50:57 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:50:57 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:50:58 INFO  MusicStoreTestRunner:13 - Scenario Outline Add albums to the cart ended
+2014-12-10 15:50:58 INFO  MusicStoreTestRunner:13 - Scenario: Navigate to main page started
+2014-12-10 15:50:58 INFO  MusicStoreTestRunner:13 - Given Music Store application is opened
+2014-12-10 15:50:58 INFO  MusicStoreTestRunner:13 - When I click on main banner
+2014-12-10 15:50:58 INFO  MusicStoreTestRunner:13 - Then I should see home page
+2014-12-10 15:50:58 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:50:58 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:50:59 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:50:59 INFO  MusicStoreTestRunner:13 - Scenario Navigate to main page ended
+2014-12-10 15:50:59 INFO  MusicStoreTestRunner:13 - Scenario: Check cart started
+2014-12-10 15:50:59 INFO  MusicStoreTestRunner:13 - Given Music Store application is opened
+2014-12-10 15:50:59 INFO  MusicStoreTestRunner:13 - When I navigate to cart
+2014-12-10 15:50:59 INFO  MusicStoreTestRunner:13 - Then I should see 'Review your cart:' page header
+2014-12-10 15:50:59 INFO  MusicStoreTestRunner:13 - And Total sum should be correct
+2014-12-10 15:50:59 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:51:00 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:51:00 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:51:00 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:51:01 INFO  MusicStoreTestRunner:13 - Scenario Check cart ended
+2014-12-10 15:51:01 INFO  MusicStoreTestRunner:13 - Scenario: Remove album from the cart started
+2014-12-10 15:51:01 INFO  MusicStoreTestRunner:13 - Given Cart page is opened
+2014-12-10 15:51:01 INFO  MusicStoreTestRunner:13 - When I remove first album from the cart
+2014-12-10 15:51:01 INFO  MusicStoreTestRunner:13 - Then Album should be removed from the list
+2014-12-10 15:51:01 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:51:01 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:51:02 INFO  MusicStoreTestRunner:13 - failed
+2014-12-10 15:51:02 INFO  MusicStoreTestRunner:13 - Scenario Remove album from the cart ended
+2014-12-10 15:51:02 INFO  MusicStoreTestRunner:13 - Scenario: Proceed to checkout started
+2014-12-10 15:51:02 INFO  MusicStoreTestRunner:13 - Given Cart page is opened
+2014-12-10 15:51:02 INFO  MusicStoreTestRunner:13 - When I click 'Checkout' button
+2014-12-10 15:51:02 INFO  MusicStoreTestRunner:13 - Then I should see 'Address And Payment' page header
+2014-12-10 15:51:02 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:51:02 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:51:03 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:51:03 INFO  MusicStoreTestRunner:13 - Scenario Proceed to checkout ended
+2014-12-10 15:51:03 INFO  MusicStoreTestRunner:13 - Scenario: Submit order started
+2014-12-10 15:51:03 INFO  MusicStoreTestRunner:13 - Given Address And Payment page is opened
+2014-12-10 15:51:03 INFO  MusicStoreTestRunner:13 - When I submit order with shipping details:
+2014-12-10 15:51:03 INFO  MusicStoreTestRunner:13 - Then I should see 'Checkout Complete' page header
+2014-12-10 15:51:03 INFO  MusicStoreTestRunner:13 - And Order number should be displayed
+2014-12-10 15:51:03 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:51:05 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:51:06 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:51:06 INFO  MusicStoreTestRunner:13 - passed
+2014-12-10 15:51:06 INFO  MusicStoreTestRunner:13 - Scenario Submit order ended
+2014-12-10 16:18:56 INFO  MusicStoreTestRunner:17 - Feature: Purchase disks in Music store
+2014-12-10 16:18:56 INFO  MusicStoreTestRunner:17 - Scenario: Navigate and login to Music Store started
+2014-12-10 16:19:08 INFO  MusicStoreTestRunner:17 - I navigate to the Music Store in 'firefox' browser - passed
+2014-12-10 16:19:12 INFO  MusicStoreTestRunner:17 - I try to login as admin - passed
+2014-12-10 16:19:12 INFO  MusicStoreTestRunner:17 - I should not see any errors - passed
+2014-12-10 16:19:13 INFO  MusicStoreTestRunner:17 - Scenario Navigate and login to Music Store ended
+2014-12-10 16:19:13 INFO  MusicStoreTestRunner:17 - Scenario Outline: Add albums to the cart
+2014-12-10 16:19:13 INFO  MusicStoreTestRunner:17 - Scenario Outline: Add albums to the cart started
+2014-12-10 16:19:13 INFO  MusicStoreTestRunner:17 - 'Rock' genre exists in the list - passed
+2014-12-10 16:19:15 INFO  MusicStoreTestRunner:17 - I add to cart 'random' album from 'Rock' genre - passed
+2014-12-10 16:19:16 INFO  MusicStoreTestRunner:17 - Album should be added to the cart - passed
+2014-12-10 16:19:16 INFO  MusicStoreTestRunner:17 - Scenario Outline Add albums to the cart ended
+2014-12-10 16:19:16 INFO  MusicStoreTestRunner:17 - Scenario Outline: Add albums to the cart started
+2014-12-10 16:19:16 INFO  MusicStoreTestRunner:17 - 'Latin' genre exists in the list - passed
+2014-12-10 16:19:18 INFO  MusicStoreTestRunner:17 - I add to cart '3' album from 'Latin' genre - passed
+2014-12-10 16:19:18 INFO  MusicStoreTestRunner:17 - Album should be added to the cart - passed
+2014-12-10 16:19:18 INFO  MusicStoreTestRunner:17 - Scenario Outline Add albums to the cart ended
+2014-12-10 16:19:18 INFO  MusicStoreTestRunner:17 - Scenario Outline: Add albums to the cart started
+2014-12-10 16:19:18 INFO  MusicStoreTestRunner:17 - 'Latin' genre exists in the list - passed
+2014-12-10 16:19:20 INFO  MusicStoreTestRunner:17 - I add to cart '4' album from 'Latin' genre - passed
+2014-12-10 16:19:20 INFO  MusicStoreTestRunner:17 - Album should be added to the cart - passed
+2014-12-10 16:19:20 INFO  MusicStoreTestRunner:17 - Scenario Outline Add albums to the cart ended
+2014-12-10 16:19:20 INFO  MusicStoreTestRunner:17 - Scenario: Navigate to main page started
+2014-12-10 16:19:20 INFO  MusicStoreTestRunner:17 - Music Store application is opened - passed
+2014-12-10 16:19:21 INFO  MusicStoreTestRunner:17 - I click on main banner - passed
+2014-12-10 16:19:22 INFO  MusicStoreTestRunner:17 - I should see home page - passed
+2014-12-10 16:19:22 INFO  MusicStoreTestRunner:17 - Scenario Navigate to main page ended
+2014-12-10 16:19:22 INFO  MusicStoreTestRunner:17 - Scenario: Check cart started
+2014-12-10 16:19:22 INFO  MusicStoreTestRunner:17 - Music Store application is opened - passed
+2014-12-10 16:19:23 INFO  MusicStoreTestRunner:17 - I navigate to cart - passed
+2014-12-10 16:19:23 INFO  MusicStoreTestRunner:17 - I should see 'Review your cart:' page header - passed
+2014-12-10 16:19:24 INFO  MusicStoreTestRunner:17 - Total sum should be correct - passed
+2014-12-10 16:19:24 INFO  MusicStoreTestRunner:17 - Scenario Check cart ended
+2014-12-10 16:19:24 INFO  MusicStoreTestRunner:17 - Scenario: Remove album from the cart started
+2014-12-10 16:19:24 INFO  MusicStoreTestRunner:17 - Cart page is opened - passed
+2014-12-10 16:19:24 INFO  MusicStoreTestRunner:17 - I remove first album from the cart - passed
+2014-12-10 16:19:25 INFO  MusicStoreTestRunner:17 - Album should be removed from the list - failed
+2014-12-10 16:19:25 ERROR MusicStoreTestRunner:21 - java.lang.AssertionError: Album has not been removed expected:<2> but was:<3>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at automation.test.MusicStoreTest.album_should_be_removed_from_the_list(MusicStoreTest.java:133)
+	at ?.Then Album should be removed from the list(Test.feature:34)
+
+2014-12-10 16:19:25 INFO  MusicStoreTestRunner:17 - Scenario Remove album from the cart ended
+2014-12-10 16:19:25 INFO  MusicStoreTestRunner:17 - Scenario: Proceed to checkout started
+2014-12-10 16:19:25 INFO  MusicStoreTestRunner:17 - Cart page is opened - passed
+2014-12-10 16:19:26 INFO  MusicStoreTestRunner:17 - I click 'Checkout' button - passed
+2014-12-10 16:19:26 INFO  MusicStoreTestRunner:17 - I should see 'Address And Payment' page header - passed
+2014-12-10 16:19:26 INFO  MusicStoreTestRunner:17 - Scenario Proceed to checkout ended
+2014-12-10 16:19:26 INFO  MusicStoreTestRunner:17 - Scenario: Submit order started
+2014-12-10 16:19:26 INFO  MusicStoreTestRunner:17 - Address And Payment page is opened - passed
+2014-12-10 16:19:29 INFO  MusicStoreTestRunner:17 - I submit order with shipping details: - passed
+2014-12-10 16:19:29 INFO  MusicStoreTestRunner:17 - I should see 'Checkout Complete' page header - passed
+2014-12-10 16:19:30 INFO  MusicStoreTestRunner:17 - Order number should be displayed - passed
+2014-12-10 16:19:30 INFO  MusicStoreTestRunner:17 - Scenario Submit order ended
+2014-12-10 16:20:42 INFO  MusicStoreTestRunner:17 - Feature: Purchase disks in Music store
+2014-12-10 16:20:42 INFO  MusicStoreTestRunner:17 - Scenario: Navigate and login to Music Store started
+2014-12-10 16:20:51 INFO  MusicStoreTestRunner:17 - I navigate to the Music Store in 'firefox' browser - PASSED
+2014-12-10 16:20:53 INFO  MusicStoreTestRunner:17 - I try to login as admin - PASSED
+2014-12-10 16:20:53 INFO  MusicStoreTestRunner:17 - I should not see any errors - PASSED
+2014-12-10 16:20:53 INFO  MusicStoreTestRunner:17 - Scenario Navigate and login to Music Store ended
+2014-12-10 16:20:53 INFO  MusicStoreTestRunner:17 - Scenario Outline: Add albums to the cart
+2014-12-10 16:20:53 INFO  MusicStoreTestRunner:17 - Scenario Outline: Add albums to the cart started
+2014-12-10 16:20:53 INFO  MusicStoreTestRunner:17 - 'Rock' genre exists in the list - PASSED
+2014-12-10 16:20:55 INFO  MusicStoreTestRunner:17 - I add to cart 'random' album from 'Rock' genre - PASSED
+2014-12-10 16:20:55 INFO  MusicStoreTestRunner:17 - Album should be added to the cart - PASSED
+2014-12-10 16:20:56 INFO  MusicStoreTestRunner:17 - Scenario Outline Add albums to the cart ended
+2014-12-10 16:20:56 INFO  MusicStoreTestRunner:17 - Scenario Outline: Add albums to the cart started
+2014-12-10 16:20:56 INFO  MusicStoreTestRunner:17 - 'Latin' genre exists in the list - PASSED
+2014-12-10 16:20:57 INFO  MusicStoreTestRunner:17 - I add to cart '3' album from 'Latin' genre - PASSED
+2014-12-10 16:20:57 INFO  MusicStoreTestRunner:17 - Album should be added to the cart - PASSED
+2014-12-10 16:20:57 INFO  MusicStoreTestRunner:17 - Scenario Outline Add albums to the cart ended
+2014-12-10 16:20:57 INFO  MusicStoreTestRunner:17 - Scenario Outline: Add albums to the cart started
+2014-12-10 16:20:57 INFO  MusicStoreTestRunner:17 - 'Latin' genre exists in the list - PASSED
+2014-12-10 16:20:59 INFO  MusicStoreTestRunner:17 - I add to cart '4' album from 'Latin' genre - PASSED
+2014-12-10 16:20:59 INFO  MusicStoreTestRunner:17 - Album should be added to the cart - PASSED
+2014-12-10 16:20:59 INFO  MusicStoreTestRunner:17 - Scenario Outline Add albums to the cart ended
+2014-12-10 16:20:59 INFO  MusicStoreTestRunner:17 - Scenario: Navigate to main page started
+2014-12-10 16:20:59 INFO  MusicStoreTestRunner:17 - Music Store application is opened - PASSED
+2014-12-10 16:21:00 INFO  MusicStoreTestRunner:17 - I click on main banner - PASSED
+2014-12-10 16:21:01 INFO  MusicStoreTestRunner:17 - I should see home page - PASSED
+2014-12-10 16:21:01 INFO  MusicStoreTestRunner:17 - Scenario Navigate to main page ended
+2014-12-10 16:21:01 INFO  MusicStoreTestRunner:17 - Scenario: Check cart started
+2014-12-10 16:21:01 INFO  MusicStoreTestRunner:17 - Music Store application is opened - PASSED
+2014-12-10 16:21:02 INFO  MusicStoreTestRunner:17 - I navigate to cart - PASSED
+2014-12-10 16:21:02 INFO  MusicStoreTestRunner:17 - I should see 'Review your cart:' page header - PASSED
+2014-12-10 16:21:02 INFO  MusicStoreTestRunner:17 - Total sum should be correct - PASSED
+2014-12-10 16:21:02 INFO  MusicStoreTestRunner:17 - Scenario Check cart ended
+2014-12-10 16:21:02 INFO  MusicStoreTestRunner:17 - Scenario: Remove album from the cart started
+2014-12-10 16:21:03 INFO  MusicStoreTestRunner:17 - Cart page is opened - PASSED
+2014-12-10 16:21:03 INFO  MusicStoreTestRunner:17 - I remove first album from the cart - PASSED
+2014-12-10 16:21:03 INFO  MusicStoreTestRunner:17 - Album should be removed from the list - FAILED
+2014-12-10 16:21:03 ERROR MusicStoreTestRunner:21 - java.lang.AssertionError: Album has not been removed expected:<2> but was:<3>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at automation.test.MusicStoreTest.album_should_be_removed_from_the_list(MusicStoreTest.java:133)
+	at ?.Then Album should be removed from the list(Test.feature:34)
+
+2014-12-10 16:21:03 INFO  MusicStoreTestRunner:17 - Scenario Remove album from the cart ended
+2014-12-10 16:21:03 INFO  MusicStoreTestRunner:17 - Scenario: Proceed to checkout started
+2014-12-10 16:21:04 INFO  MusicStoreTestRunner:17 - Cart page is opened - PASSED
+2014-12-10 16:21:04 INFO  MusicStoreTestRunner:17 - I click 'Checkout' button - PASSED
+2014-12-10 16:21:04 INFO  MusicStoreTestRunner:17 - I should see 'Address And Payment' page header - PASSED
+2014-12-10 16:21:05 INFO  MusicStoreTestRunner:17 - Scenario Proceed to checkout ended
+2014-12-10 16:21:05 INFO  MusicStoreTestRunner:17 - Scenario: Submit order started
+2014-12-10 16:21:05 INFO  MusicStoreTestRunner:17 - Address And Payment page is opened - PASSED
+2014-12-10 16:21:07 INFO  MusicStoreTestRunner:17 - I submit order with shipping details: - PASSED
+2014-12-10 16:21:07 INFO  MusicStoreTestRunner:17 - I should see 'Checkout Complete' page header - PASSED
+2014-12-10 16:21:08 INFO  MusicStoreTestRunner:17 - Order number should be displayed - PASSED
+2014-12-10 16:21:08 INFO  MusicStoreTestRunner:17 - Scenario Submit order ended

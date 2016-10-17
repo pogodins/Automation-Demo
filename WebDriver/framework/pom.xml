@@ -1,0 +1,130 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+  	<groupId>com.automation</groupId>
+ 	<artifactId>framework</artifactId>
+  	<version>0.0.1-SNAPSHOT</version>
+  	
+  	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<selenium.version>2.43.1</selenium.version>
+		<testng.version>6.8.8</testng.version>
+		<defaultSuiteFile>testng.xml</defaultSuiteFile>
+		<suiteFile>${defaultSuiteFile}</suiteFile>
+	</properties>
+  
+   	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.0</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin> 
+			
+			<plugin>
+ 				<groupId>org.apache.maven.plugins</groupId>
+ 				<artifactId>maven-surefire-plugin</artifactId>
+ 				<version>2.6</version>
+ 				<configuration>
+ 					<properties>
+                    	<property>
+                        	<name>usedefaultlisteners</name>
+                        	<value>false</value>
+                    	</property>
+                    	<property>
+                        	<name>listener</name>
+                        	<value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
+                    	</property>
+                	</properties>
+                	<workingDirectory></workingDirectory>
+ 					<suiteXmlFiles>
+ 						<suiteXmlFile>${suiteFile}</suiteXmlFile>
+ 					</suiteXmlFiles>
+ 					<skipTests>false</skipTests>
+ 				</configuration>
+ 			</plugin>  
+		</plugins>
+	</build>
+	
+  	<dependencies>
+ 		<!-- Test NG -->
+  		<dependency>
+  			<groupId>org.testng</groupId>
+  			<artifactId>testng</artifactId>
+  			<version>${testng.version}</version>
+		</dependency>
+		
+		<!-- Report NG -->
+		<dependency>
+        	<groupId>org.uncommons</groupId>
+        	<artifactId>reportng</artifactId>
+        	<version>1.1.4</version>
+        	<exclusions>
+            	<exclusion>
+                	<groupId>org.testng</groupId>
+                	<artifactId>testng</artifactId>
+            	</exclusion>
+        	</exclusions>
+    	</dependency>
+    	
+    	<dependency>
+    		<groupId>com.google.inject</groupId>
+    		<artifactId>guice</artifactId>
+    		<version>3.0</version>
+		</dependency>
+	
+		<!-- Selenium -->
+    	<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+        
+    	<!-- WebDriver -->
+    	<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-chrome-driver</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-firefox-driver</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+		
+		<!-- OJDBC -->
+		<dependency>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc6</artifactId>
+            <version>11.2.0</version>
+        </dependency>
+	
+		<!-- Apache POI -->
+    	<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.9</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.9</version>
+			<exclusions>
+        		<exclusion>  <!-- declare the exclusion here -->
+          			<groupId>xml-apis</groupId> 
+             		<artifactId>xml-apis</artifactId> 
+        		</exclusion>
+      		</exclusions> 
+		</dependency>
+		
+        
+        <dependency>
+			<groupId>com.sun.mail</groupId>
+			<artifactId>javax.mail</artifactId>
+			<version>1.5.1</version>
+		</dependency>  
+	</dependencies> 
+</project>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening chrome web driver]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to Login page]]>
+    </line>
+    <line>
+      <![CDATA[Logging in as spogodin]]>
+    </line>
+    <line>
+      <![CDATA[Selecting genre Rock]]>
+    </line>
+    <line>
+      <![CDATA[Selecting album 17]]>
+    </line>
+    <line>
+      <![CDATA[Adding album to cart]]>
+    </line>
+    <line>
+      <![CDATA[Selecting genre Latin]]>
+    </line>
+    <line>
+      <![CDATA[Selecting album 3]]>
+    </line>
+    <line>
+      <![CDATA[Adding album to cart]]>
+    </line>
+    <line>
+      <![CDATA[Selecting genre Latin]]>
+    </line>
+    <line>
+      <![CDATA[Selecting album 4]]>
+    </line>
+    <line>
+      <![CDATA[Adding album to cart]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to Main page]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to cart]]>
+    </line>
+    <line>
+      <![CDATA[Checking out purchase]]>
+    </line>
+    <line>
+      <![CDATA[Entering shipping info and submitting purchase]]>
+    </line>
+    <line>
+      <![CDATA[Closing browser and quit webdriver]]>
+    </line>
+  </reporter-output>
+  <suite name="Chrome suite" duration-ms="20529" started-at="2014-11-04T12:04:47Z" finished-at="2014-11-04T12:05:08Z">
+    <groups>
+    </groups>
+    <test name="MusicStoreTest" duration-ms="20529" started-at="2014-11-04T12:04:47Z" finished-at="2014-11-04T12:05:08Z">
+      <class name="automation.test.MusicStoreTest">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:automation.test.MusicStoreTest@42ed41a7]" name="init" is-config="true" duration-ms="10404" started-at="2014-11-04T14:04:47Z" finished-at="2014-11-04T14:04:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening chrome web driver]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="checkStore()[pri:0, instance:automation.test.MusicStoreTest@42ed41a7]" name="checkStore" duration-ms="8749" started-at="2014-11-04T14:04:58Z" finished-at="2014-11-04T14:05:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigating to Login page]]>
+            </line>
+            <line>
+              <![CDATA[Logging in as spogodin]]>
+            </line>
+            <line>
+              <![CDATA[Selecting genre Rock]]>
+            </line>
+            <line>
+              <![CDATA[Selecting album 17]]>
+            </line>
+            <line>
+              <![CDATA[Adding album to cart]]>
+            </line>
+            <line>
+              <![CDATA[Selecting genre Latin]]>
+            </line>
+            <line>
+              <![CDATA[Selecting album 3]]>
+            </line>
+            <line>
+              <![CDATA[Adding album to cart]]>
+            </line>
+            <line>
+              <![CDATA[Selecting genre Latin]]>
+            </line>
+            <line>
+              <![CDATA[Selecting album 4]]>
+            </line>
+            <line>
+              <![CDATA[Adding album to cart]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to Main page]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to cart]]>
+            </line>
+            <line>
+              <![CDATA[Checking out purchase]]>
+            </line>
+            <line>
+              <![CDATA[Entering shipping info and submitting purchase]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStore -->
+        <test-method status="PASS" signature="webdriverQuit()[pri:0, instance:automation.test.MusicStoreTest@42ed41a7]" name="webdriverQuit" is-config="true" duration-ms="1372" started-at="2014-11-04T14:05:07Z" finished-at="2014-11-04T14:05:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing browser and quit webdriver]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- webdriverQuit -->
+      </class> <!-- automation.test.MusicStoreTest -->
+    </test> <!-- MusicStoreTest -->
+  </suite> <!-- Chrome suite -->
+</testng-results>

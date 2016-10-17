@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MusicStoreTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.917">
+  <properties />
+  
+  
+            <testcase name="checkStore" time="4.917" classname="com.advisory.automation.supplierportal.test.MusicStoreTest" />
+      
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Chrome suite" parallel="false" thread-count="1">
+	<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  	</listeners>
+	<parameter name="driver" value="chrome"/>
+	
+	<test name="MusicStoreTest" parallel="false" thread-count="1" enabled="true">
+		<classes>
+			<class name="automation.test.MusicStoreTest"/>
+		</classes>
+	</test>
+</suite>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Chrome suite]">
+  <parameter name="driver" value="chrome"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="MusicStoreTest(failed)">
+    <classes>
+      <class name="automation.test.MusicStoreTest">
+        <methods>
+          <include name="webdriverQuit"/>
+          <include name="checkStore"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- automation.test.MusicStoreTest -->
+    </classes>
+  </test> <!-- MusicStoreTest(failed) -->
+</suite> <!-- Failed suite [Chrome suite] -->

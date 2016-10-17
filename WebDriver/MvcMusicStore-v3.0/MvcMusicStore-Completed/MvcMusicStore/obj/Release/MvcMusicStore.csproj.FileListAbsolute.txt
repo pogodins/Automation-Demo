@@ -1,0 +1,1 @@
+C:\inetpub\wwwroot\MvcMusicStore-v3.0\MvcMusicStore-Completed\MvcMusicStore\obj\Release\MvcMusicStore.csprojResolveAssemblyReference.cache

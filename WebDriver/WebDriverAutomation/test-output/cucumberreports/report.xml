@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<feature>
+    <name>Purchase disks in Music store</name>
+    <scenarios>
+        <scenario>
+            <name>Navigate and login to Music Store</name>
+            <steps>
+                <step>
+                    <keyword>Given</keyword>
+                    <name>I navigate to the Music Store in 'firefox' browser</name>
+                    <result>
+                        <imageURL>screenshots/Given_I_navigate_to_the_Music_Store_in_'firefox'_browser.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>When</keyword>
+                    <name>I try to login as admin</name>
+                    <result>
+                        <imageURL>screenshots/When_I_try_to_login_as_admin.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>Then</keyword>
+                    <name>I should not see any errors</name>
+                    <result>
+                        <imageURL>screenshots/Then_I_should_not_see_any_errors.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+            </steps>
+        </scenario>
+        <scenario>
+            <name>Add albums to the cart</name>
+            <steps>
+                <step>
+                    <keyword>Given</keyword>
+                    <name>'Rock' genre exists in the list</name>
+                    <result>
+                        <imageURL>screenshots/Given_'Rock'_genre_exists_in_the_list.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>When</keyword>
+                    <name>I add to cart 'random' album from 'Rock' genre</name>
+                    <result>
+                        <imageURL>screenshots/When_I_add_to_cart_'random'_album_from_'Rock'_genre.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>Then</keyword>
+                    <name>Album should be added to the cart</name>
+                    <result>
+                        <imageURL>screenshots/Then_Album_should_be_added_to_the_cart.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+            </steps>
+        </scenario>
+        <scenario>
+            <name>Add albums to the cart</name>
+            <steps>
+                <step>
+                    <keyword>Given</keyword>
+                    <name>'Latin' genre exists in the list</name>
+                    <result>
+                        <imageURL>screenshots/Given_'Latin'_genre_exists_in_the_list.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>When</keyword>
+                    <name>I add to cart '3' album from 'Latin' genre</name>
+                    <result>
+                        <imageURL>screenshots/When_I_add_to_cart_'3'_album_from_'Latin'_genre.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>Then</keyword>
+                    <name>Album should be added to the cart</name>
+                    <result>
+                        <imageURL>screenshots/Then_Album_should_be_added_to_the_cart.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+            </steps>
+        </scenario>
+        <scenario>
+            <name>Add albums to the cart</name>
+            <steps>
+                <step>
+                    <keyword>Given</keyword>
+                    <name>'Latin' genre exists in the list</name>
+                    <result>
+                        <imageURL>screenshots/Given_'Latin'_genre_exists_in_the_list.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>When</keyword>
+                    <name>I add to cart '4' album from 'Latin' genre</name>
+                    <result>
+                        <imageURL>screenshots/When_I_add_to_cart_'4'_album_from_'Latin'_genre.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>Then</keyword>
+                    <name>Album should be added to the cart</name>
+                    <result>
+                        <imageURL>screenshots/Then_Album_should_be_added_to_the_cart.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+            </steps>
+        </scenario>
+        <scenario>
+            <name>Navigate to main page</name>
+            <steps>
+                <step>
+                    <keyword>Given</keyword>
+                    <name>Music Store application is opened</name>
+                    <result>
+                        <imageURL>screenshots/Given_Music_Store_application_is_opened.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>When</keyword>
+                    <name>I click on main banner</name>
+                    <result>
+                        <imageURL>screenshots/When_I_click_on_main_banner.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>Then</keyword>
+                    <name>I should see home page</name>
+                    <result>
+                        <imageURL>screenshots/Then_I_should_see_home_page.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+            </steps>
+        </scenario>
+        <scenario>
+            <name>Check cart</name>
+            <steps>
+                <step>
+                    <keyword>Given</keyword>
+                    <name>Music Store application is opened</name>
+                    <result>
+                        <imageURL>screenshots/Given_Music_Store_application_is_opened.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>When</keyword>
+                    <name>I navigate to cart</name>
+                    <result>
+                        <imageURL>screenshots/When_I_navigate_to_cart.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>Then</keyword>
+                    <name>I should see 'Review your cart:' page header</name>
+                    <result>
+                        <imageURL>screenshots/Then_I_should_see_'Review_your_cart'_page_header.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>And</keyword>
+                    <name>Total sum should be correct</name>
+                    <result>
+                        <imageURL>screenshots/And_Total_sum_should_be_correct.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+            </steps>
+        </scenario>
+        <scenario>
+            <name>Remove album from the cart</name>
+            <steps>
+                <step>
+                    <keyword>Given</keyword>
+                    <name>Cart page is opened</name>
+                    <result>
+                        <imageURL>screenshots/Given_Cart_page_is_opened.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>When</keyword>
+                    <name>I remove first album from the cart</name>
+                    <result>
+                        <imageURL>screenshots/When_I_remove_first_album_from_the_cart.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>Then</keyword>
+                    <name>Album should be removed from the list</name>
+                    <result>
+                        <imageURL>screenshots/Then_Album_should_be_removed_from_the_list.png</imageURL>
+                        <status>failed</status>
+                    </result>
+                </step>
+            </steps>
+        </scenario>
+        <scenario>
+            <name>Proceed to checkout</name>
+            <steps>
+                <step>
+                    <keyword>Given</keyword>
+                    <name>Cart page is opened</name>
+                    <result>
+                        <imageURL>screenshots/Given_Cart_page_is_opened.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>When</keyword>
+                    <name>I click 'Checkout' button</name>
+                    <result>
+                        <imageURL>screenshots/When_I_click_'Checkout'_button.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>Then</keyword>
+                    <name>I should see 'Address And Payment' page header</name>
+                    <result>
+                        <imageURL>screenshots/Then_I_should_see_'Address_And_Payment'_page_header.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+            </steps>
+        </scenario>
+        <scenario>
+            <name>Submit order</name>
+            <steps>
+                <step>
+                    <keyword>Given</keyword>
+                    <name>Address And Payment page is opened</name>
+                    <result>
+                        <imageURL>screenshots/Given_Address_And_Payment_page_is_opened.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>When</keyword>
+                    <name>I submit order with shipping details:</name>
+                    <result>
+                        <imageURL>screenshots/When_I_submit_order_with_shipping_details.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>Then</keyword>
+                    <name>I should see 'Checkout Complete' page header</name>
+                    <result>
+                        <imageURL>screenshots/Then_I_should_see_'Checkout_Complete'_page_header.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+                <step>
+                    <keyword>And</keyword>
+                    <name>Order number should be displayed</name>
+                    <result>
+                        <imageURL>screenshots/And_Order_number_should_be_displayed.png</imageURL>
+                        <status>passed</status>
+                    </result>
+                </step>
+            </steps>
+        </scenario>
+    </scenarios>
+</feature>

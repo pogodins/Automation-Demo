@@ -1,0 +1,32 @@
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td.scenario {
+	padding: 0;
+}
+table.scenario {
+	width: 100%;
+	border: none;
+}
+table.scenario  td:first-child {
+	border-left: none;
+}
+table.scenario  td:last-child {
+	border-right: none;
+}
+td.status {
+	width: 50px;
+	text-align: center;
+}
+h3 {
+	margin: 0;
+	padding-left: 5px;
+	background-color: DodgerBlue;
+}
+tr#passed {
+	background-color: LimeGreen;
+}
+tr#failed {
+	background-color: red;
+}
